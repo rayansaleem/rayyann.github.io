@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choco Monarach</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ccffcc; /* Updated background color */
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-bottom: 2px solid #fff; /* White border line */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+            color: red; /* Hover color red */
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .header {
+            background-image: url('chocolate-dessert.jpg'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            height: 300px; /* Adjust as needed */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 150px; /* Adjust as needed */
+            height: auto;
+        }
+
+        .intro {
+            background-color: rgba(255, 255, 255, 0.8); /* White box with opacity */
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .intro h2 {
+            color: #000; /* Black text */
+        }
+
+        .contact-heading {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        form {
+            margin-top: 10px;
+        }
+
+        form input,
+        form textarea,
+        form button {
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <div class="header">
+        <img src="logo.png" alt="Choco Monarach Logo" class="logo">
+    </div>
+    <main>
+        <div class="intro">
+            <h2>Welcome</h2>
+            <p>The Choco Monarch Coffee Shop is a concept café and chocolataria emphasizing on the growing trend of café which can be easily seen in the Middle East region. Since 2017 Choco Monarch has been at the center stage of all the lovers for delights in French Crepes, Waffles, Pancakes, freshly baked cakes and array of hot and cold beverages created in-house maintaining high standards of quality with great taste.</p>
+            <img src="desserts.jpg" alt="Desserts Image" style="width: 300px; height: auto;">
+        </div>
+        <div class="contact">
+            <h2 class="contact-heading">Contact Us</h2>
+            <form>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Choco Monarch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ccffcc;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-bottom: 2px solid #fff;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center; /* Center align the heading */
+        }
+
+        h2 {
+            font-weight: bold;
+            border: none; /* Ensure no border on heading */
+            margin-bottom: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .gallery img {
+            width: auto;
+            height: auto;
+            margin-bottom: 20px;
+            border: none; /* Ensure no border on images */
+            max-width: 90%; /* Ensure images do not exceed the viewport width */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Gallery Image 1">
+            <img src="image2.jpg" alt="Gallery Image 2">
+            <img src="image3.jpg" alt="Gallery Image 3">
+            <img src="image4.jpg" alt="Gallery Image 4">
+            <img src="image5.jpg" alt="Gallery Image 5">
+            <img src="image6.jpg" alt="Gallery Image 6">
+            <img src="image7.jpg" alt="Gallery Image 7">
+            <img src="image8.jpg" alt="Gallery Image 8">
+            <img src="image9.jpg" alt="Gallery Image 9">
+            <img src="image10.jpg" alt="Gallery Image 10">
+        </div>
+    </main>
+</body>
+</html>
